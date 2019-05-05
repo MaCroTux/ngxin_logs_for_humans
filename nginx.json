@@ -1,0 +1,15 @@
+{
+  "exp_reg": "^(.+) (.) (.) \\[(.+)\\] \"(\\w+) (.+) (HTTP\\\/.+)\" (.\\d+) (.+) \"(.+)\" \"(.+)\" \"-\"$",
+  "data_position": {
+    "ip": 0,
+    "date": 3,
+    "schema": 6,
+    "domain": 1,
+    "method": 4,
+    "endPoint": 5,
+    "protocol": 6,
+    "status": 7,
+    "referer": 9,
+    "agent": 10
+  }
+}
